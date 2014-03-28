@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB339A2718E23C4C00A14F45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB339A2618E23C4C00A14F45 /* Foundation.framework */; };
+		FB339A2918E23C4C00A14F45 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB339A2818E23C4C00A14F45 /* CoreGraphics.framework */; };
+		FB339A2B18E23C4C00A14F45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB339A2A18E23C4C00A14F45 /* UIKit.framework */; };
+		FB339A2D18E23C4C00A14F45 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB339A2C18E23C4C00A14F45 /* GLKit.framework */; };
+		FB339A2F18E23C4C00A14F45 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB339A2E18E23C4C00A14F45 /* OpenGLES.framework */; };
+		FB339A3518E23C4C00A14F45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB339A3318E23C4C00A14F45 /* InfoPlist.strings */; };
+		FB339A3718E23C4C00A14F45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB339A3618E23C4C00A14F45 /* main.m */; };
+		FB339A3B18E23C4C00A14F45 /* MDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB339A3A18E23C4C00A14F45 /* MDAppDelegate.m */; };
+		FB339A3E18E23C4C00A14F45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB339A3C18E23C4C00A14F45 /* Main.storyboard */; };
+		FB339A4018E23C4C00A14F45 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = FB339A3F18E23C4C00A14F45 /* Shader.fsh */; };
+		FB339A4218E23C4C00A14F45 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = FB339A4118E23C4C00A14F45 /* Shader.vsh */; };
+		FB339A4518E23C4C00A14F45 /* MDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB339A4418E23C4C00A14F45 /* MDViewController.m */; };
+		FB339A4718E23C4C00A14F45 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB339A4618E23C4C00A14F45 /* Images.xcassets */; };
+		FB339A4E18E23C4C00A14F45 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB339A4D18E23C4C00A14F45 /* XCTest.framework */; };
+		FB339A4F18E23C4C00A14F45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB339A2618E23C4C00A14F45 /* Foundation.framework */; };
+		FB339A5018E23C4C00A14F45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB339A2A18E23C4C00A14F45 /* UIKit.framework */; };
+		FB339A5818E23C4C00A14F45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB339A5618E23C4C00A14F45 /* InfoPlist.strings */; };
+		FB339A5A18E23C4C00A14F45 /* GraficasFinalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB339A5918E23C4C00A14F45 /* GraficasFinalTests.m */; };
+		FB339A6518E23D3A00A14F45 /* MDMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB339A6418E23D3A00A14F45 /* MDMenuViewController.m */; };
+		FB339A6A18E2429F00A14F45 /* MDPuntajeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB339A6918E2429F00A14F45 /* MDPuntajeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB339A5118E23C4C00A14F45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB339A1B18E23C4C00A14F45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB339A2218E23C4C00A14F45;
+			remoteInfo = GraficasFinal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB339A2318E23C4C00A14F45 /* GraficasFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraficasFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB339A2618E23C4C00A14F45 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FB339A2818E23C4C00A14F45 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FB339A2A18E23C4C00A14F45 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FB339A2C18E23C4C00A14F45 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		FB339A2E18E23C4C00A14F45 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		FB339A3218E23C4C00A14F45 /* GraficasFinal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GraficasFinal-Info.plist"; sourceTree = "<group>"; };
+		FB339A3418E23C4C00A14F45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FB339A3618E23C4C00A14F45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB339A3818E23C4C00A14F45 /* GraficasFinal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GraficasFinal-Prefix.pch"; sourceTree = "<group>"; };
+		FB339A3918E23C4C00A14F45 /* MDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDAppDelegate.h; sourceTree = "<group>"; };
+		FB339A3A18E23C4C00A14F45 /* MDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDAppDelegate.m; sourceTree = "<group>"; };
+		FB339A3D18E23C4C00A14F45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB339A3F18E23C4C00A14F45 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		FB339A4118E23C4C00A14F45 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		FB339A4318E23C4C00A14F45 /* MDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDViewController.h; sourceTree = "<group>"; };
+		FB339A4418E23C4C00A14F45 /* MDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDViewController.m; sourceTree = "<group>"; };
+		FB339A4618E23C4C00A14F45 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FB339A4C18E23C4C00A14F45 /* GraficasFinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraficasFinalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB339A4D18E23C4C00A14F45 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FB339A5518E23C4C00A14F45 /* GraficasFinalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GraficasFinalTests-Info.plist"; sourceTree = "<group>"; };
+		FB339A5718E23C4C00A14F45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FB339A5918E23C4C00A14F45 /* GraficasFinalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraficasFinalTests.m; sourceTree = "<group>"; };
+		FB339A6318E23D3A00A14F45 /* MDMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMenuViewController.h; sourceTree = "<group>"; };
+		FB339A6418E23D3A00A14F45 /* MDMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMenuViewController.m; sourceTree = "<group>"; };
+		FB339A6818E2429F00A14F45 /* MDPuntajeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDPuntajeViewController.h; sourceTree = "<group>"; };
+		FB339A6918E2429F00A14F45 /* MDPuntajeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPuntajeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB339A2018E23C4C00A14F45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB339A2F18E23C4C00A14F45 /* OpenGLES.framework in Frameworks */,
+				FB339A2918E23C4C00A14F45 /* CoreGraphics.framework in Frameworks */,
+				FB339A2B18E23C4C00A14F45 /* UIKit.framework in Frameworks */,
+				FB339A2D18E23C4C00A14F45 /* GLKit.framework in Frameworks */,
+				FB339A2718E23C4C00A14F45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB339A4918E23C4C00A14F45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB339A4E18E23C4C00A14F45 /* XCTest.framework in Frameworks */,
+				FB339A5018E23C4C00A14F45 /* UIKit.framework in Frameworks */,
+				FB339A4F18E23C4C00A14F45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB339A1A18E23C4C00A14F45 = {
+			isa = PBXGroup;
+			children = (
+				FB339A3018E23C4C00A14F45 /* GraficasFinal */,
+				FB339A5318E23C4C00A14F45 /* GraficasFinalTests */,
+				FB339A2518E23C4C00A14F45 /* Frameworks */,
+				FB339A2418E23C4C00A14F45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB339A2418E23C4C00A14F45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB339A2318E23C4C00A14F45 /* GraficasFinal.app */,
+				FB339A4C18E23C4C00A14F45 /* GraficasFinalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB339A2518E23C4C00A14F45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB339A2618E23C4C00A14F45 /* Foundation.framework */,
+				FB339A2818E23C4C00A14F45 /* CoreGraphics.framework */,
+				FB339A2A18E23C4C00A14F45 /* UIKit.framework */,
+				FB339A2C18E23C4C00A14F45 /* GLKit.framework */,
+				FB339A2E18E23C4C00A14F45 /* OpenGLES.framework */,
+				FB339A4D18E23C4C00A14F45 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB339A3018E23C4C00A14F45 /* GraficasFinal */ = {
+			isa = PBXGroup;
+			children = (
+				FB339A3918E23C4C00A14F45 /* MDAppDelegate.h */,
+				FB339A3A18E23C4C00A14F45 /* MDAppDelegate.m */,
+				FB339A3C18E23C4C00A14F45 /* Main.storyboard */,
+				FB339A6B18E242A400A14F45 /* Puntaje */,
+				FB339A6618E23D3F00A14F45 /* Menu */,
+				FB339A3F18E23C4C00A14F45 /* Shader.fsh */,
+				FB339A4118E23C4C00A14F45 /* Shader.vsh */,
+				FB339A6718E23D5000A14F45 /* Juego */,
+				FB339A4618E23C4C00A14F45 /* Images.xcassets */,
+				FB339A3118E23C4C00A14F45 /* Supporting Files */,
+			);
+			path = GraficasFinal;
+			sourceTree = "<group>";
+		};
+		FB339A3118E23C4C00A14F45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB339A3218E23C4C00A14F45 /* GraficasFinal-Info.plist */,
+				FB339A3318E23C4C00A14F45 /* InfoPlist.strings */,
+				FB339A3618E23C4C00A14F45 /* main.m */,
+				FB339A3818E23C4C00A14F45 /* GraficasFinal-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB339A5318E23C4C00A14F45 /* GraficasFinalTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB339A5918E23C4C00A14F45 /* GraficasFinalTests.m */,
+				FB339A5418E23C4C00A14F45 /* Supporting Files */,
+			);
+			path = GraficasFinalTests;
+			sourceTree = "<group>";
+		};
+		FB339A5418E23C4C00A14F45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB339A5518E23C4C00A14F45 /* GraficasFinalTests-Info.plist */,
+				FB339A5618E23C4C00A14F45 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB339A6618E23D3F00A14F45 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				FB339A6318E23D3A00A14F45 /* MDMenuViewController.h */,
+				FB339A6418E23D3A00A14F45 /* MDMenuViewController.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		FB339A6718E23D5000A14F45 /* Juego */ = {
+			isa = PBXGroup;
+			children = (
+				FB339A4318E23C4C00A14F45 /* MDViewController.h */,
+				FB339A4418E23C4C00A14F45 /* MDViewController.m */,
+			);
+			name = Juego;
+			sourceTree = "<group>";
+		};
+		FB339A6B18E242A400A14F45 /* Puntaje */ = {
+			isa = PBXGroup;
+			children = (
+				FB339A6818E2429F00A14F45 /* MDPuntajeViewController.h */,
+				FB339A6918E2429F00A14F45 /* MDPuntajeViewController.m */,
+			);
+			name = Puntaje;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB339A2218E23C4C00A14F45 /* GraficasFinal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB339A5D18E23C4C00A14F45 /* Build configuration list for PBXNativeTarget "GraficasFinal" */;
+			buildPhases = (
+				FB339A1F18E23C4C00A14F45 /* Sources */,
+				FB339A2018E23C4C00A14F45 /* Frameworks */,
+				FB339A2118E23C4C00A14F45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GraficasFinal;
+			productName = GraficasFinal;
+			productReference = FB339A2318E23C4C00A14F45 /* GraficasFinal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB339A4B18E23C4C00A14F45 /* GraficasFinalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB339A6018E23C4C00A14F45 /* Build configuration list for PBXNativeTarget "GraficasFinalTests" */;
+			buildPhases = (
+				FB339A4818E23C4C00A14F45 /* Sources */,
+				FB339A4918E23C4C00A14F45 /* Frameworks */,
+				FB339A4A18E23C4C00A14F45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB339A5218E23C4C00A14F45 /* PBXTargetDependency */,
+			);
+			name = GraficasFinalTests;
+			productName = GraficasFinalTests;
+			productReference = FB339A4C18E23C4C00A14F45 /* GraficasFinalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB339A1B18E23C4C00A14F45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MD;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Alumno;
+				TargetAttributes = {
+					FB339A4B18E23C4C00A14F45 = {
+						TestTargetID = FB339A2218E23C4C00A14F45;
+					};
+				};
+			};
+			buildConfigurationList = FB339A1E18E23C4C00A14F45 /* Build configuration list for PBXProject "GraficasFinal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB339A1A18E23C4C00A14F45;
+			productRefGroup = FB339A2418E23C4C00A14F45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB339A2218E23C4C00A14F45 /* GraficasFinal */,
+				FB339A4B18E23C4C00A14F45 /* GraficasFinalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB339A2118E23C4C00A14F45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB339A4218E23C4C00A14F45 /* Shader.vsh in Resources */,
+				FB339A4718E23C4C00A14F45 /* Images.xcassets in Resources */,
+				FB339A4018E23C4C00A14F45 /* Shader.fsh in Resources */,
+				FB339A3518E23C4C00A14F45 /* InfoPlist.strings in Resources */,
+				FB339A3E18E23C4C00A14F45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB339A4A18E23C4C00A14F45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB339A5818E23C4C00A14F45 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB339A1F18E23C4C00A14F45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB339A3718E23C4C00A14F45 /* main.m in Sources */,
+				FB339A4518E23C4C00A14F45 /* MDViewController.m in Sources */,
+				FB339A6518E23D3A00A14F45 /* MDMenuViewController.m in Sources */,
+				FB339A6A18E2429F00A14F45 /* MDPuntajeViewController.m in Sources */,
+				FB339A3B18E23C4C00A14F45 /* MDAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB339A4818E23C4C00A14F45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB339A5A18E23C4C00A14F45 /* GraficasFinalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB339A5218E23C4C00A14F45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB339A2218E23C4C00A14F45 /* GraficasFinal */;
+			targetProxy = FB339A5118E23C4C00A14F45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB339A3318E23C4C00A14F45 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB339A3418E23C4C00A14F45 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FB339A3C18E23C4C00A14F45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB339A3D18E23C4C00A14F45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB339A5618E23C4C00A14F45 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB339A5718E23C4C00A14F45 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB339A5B18E23C4C00A14F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FB339A5C18E23C4C00A14F45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB339A5E18E23C4C00A14F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GraficasFinal/GraficasFinal-Prefix.pch";
+				INFOPLIST_FILE = "GraficasFinal/GraficasFinal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FB339A5F18E23C4C00A14F45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GraficasFinal/GraficasFinal-Prefix.pch";
+				INFOPLIST_FILE = "GraficasFinal/GraficasFinal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FB339A6118E23C4C00A14F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GraficasFinal.app/GraficasFinal";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GraficasFinal/GraficasFinal-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GraficasFinalTests/GraficasFinalTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FB339A6218E23C4C00A14F45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GraficasFinal.app/GraficasFinal";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GraficasFinal/GraficasFinal-Prefix.pch";
+				INFOPLIST_FILE = "GraficasFinalTests/GraficasFinalTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB339A1E18E23C4C00A14F45 /* Build configuration list for PBXProject "GraficasFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB339A5B18E23C4C00A14F45 /* Debug */,
+				FB339A5C18E23C4C00A14F45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB339A5D18E23C4C00A14F45 /* Build configuration list for PBXNativeTarget "GraficasFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB339A5E18E23C4C00A14F45 /* Debug */,
+				FB339A5F18E23C4C00A14F45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB339A6018E23C4C00A14F45 /* Build configuration list for PBXNativeTarget "GraficasFinalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB339A6118E23C4C00A14F45 /* Debug */,
+				FB339A6218E23C4C00A14F45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB339A1B18E23C4C00A14F45 /* Project object */;
+}

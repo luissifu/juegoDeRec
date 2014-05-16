@@ -12,3 +12,16 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>
+
+Authors:
+
+   ITESM representatives
+	Ing. Martha Sordia Salinas <msordia@itesm.mx>
+        Dr. Juan Arturo Nolazco Flores <jnolazco@itesm.mx>
+	Ing. Maria Isabel Cabrera Cancino <marisa.cabrera@tecvirtual.mx>
+
+
+   ITESM students
+  Jose Luis Padilla Gonzalez          <a01136406@itesm.mx>
+  Luis Eduardo Sifuentes Infante      <a01138688@itesm.mx>
+  Diego Emilio Gutierrez Yepiz        <a01175462@itesm.mx>
